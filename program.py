@@ -293,30 +293,30 @@ def get_all_info_in_url(big_url, tipe_pars, kilk_iner_elem_big):
         except RetryAfter as e:
                     print(f"Помилка RetryAfter: {e.retry_after}")
 
-# try:
-#     get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Jets&s-type=aircraft&s-page_size=100", "Jets", 100)  # Jets
-# except:
-#     pass
-# try:
-#     get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Multi+Engine+Piston&s-type=aircraft&s-page_size=100", "Multi Engine Piston", 100)  # Multi Engine Piston
-# except:
-#     pass
-# try:
-#     get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Piston+Helicopters&s-type=aircraft&s-page_size=100", "Piston Helicopters", 100)  # Piston Helicopters
-# except:
-#     pass
-# try:
-#     get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&s-type=aircraft&s-page_size=100", "Single Engine Piston", 100)  # Single Engine Piston
-# except:
-#     pass
-# try:
-#     get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Turbine+Helicopters&s-type=aircraft&s-page_size=100", "Turbine Helicopters", 100)  # Turbine Helicopters
-# except:
-#     pass
-# try:
-#     get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Turboprop&s-type=aircraft&s-type=aircraft&s-page_size=100", "Turboprop", 100)  # Turboprop
-# except:
-#     pass
+try:
+    get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Jets&s-type=aircraft&s-page_size=100", "Jets", 100)  # Jets
+except:
+    pass
+try:
+    get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Multi+Engine+Piston&s-type=aircraft&s-page_size=100", "Multi Engine Piston", 100)  # Multi Engine Piston
+except:
+    pass
+try:
+    get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Piston+Helicopters&s-type=aircraft&s-page_size=100", "Piston Helicopters", 100)  # Piston Helicopters
+except:
+    pass
+try:
+    get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&s-type=aircraft&s-page_size=100", "Single Engine Piston", 100)  # Single Engine Piston
+except:
+    pass
+try:
+    get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Turbine+Helicopters&s-type=aircraft&s-page_size=100", "Turbine Helicopters", 100)  # Turbine Helicopters
+except:
+    pass
+try:
+    get_all_info_in_url("https://www.trade-a-plane.com/search?category_level1=Turboprop&s-type=aircraft&s-type=aircraft&s-page_size=100", "Turboprop", 100)  # Turboprop
+except:
+    pass
 
 def function_a():
     print("funk a")
